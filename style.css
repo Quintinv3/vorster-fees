@@ -349,6 +349,10 @@ h3 {
 
 .formElement:focus {
   outline: none;
+  box-shadow: #8d968e;
+}
+#submit:hover {
+  background-color: #8d968e;
 }
 
 strong {
