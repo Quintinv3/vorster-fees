@@ -197,7 +197,7 @@ a {
 }
 
 .sectionInfo {
-  display: flex;
+  display: inline;
   width: 90%;
   background-image: url("Engagement/eucalyptus.jpg");
   border-radius: 8px;
@@ -205,7 +205,6 @@ a {
 }
 
 .contact {
-  float: left;
   width: 50%;
   font-size: 35px;
   line-height: 30px;
@@ -223,7 +222,7 @@ a {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  margin-left: 10%;
+
   border: 2px solid #d4af37;
   display: flex;
 }
