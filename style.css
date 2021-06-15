@@ -334,7 +334,7 @@ h3 {
 
 #submitForm {
   border-radius: 4px;
-  display: flex;
+  display: inline;
   justify-content: space-between;
 }
 
@@ -345,6 +345,10 @@ h3 {
   border-radius: 10px;
   padding: 10px;
   border: 2px solid #d4af37;
+}
+
+.formElement:focus {
+  outline: none;
 }
 
 strong {
