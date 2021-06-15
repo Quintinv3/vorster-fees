@@ -52,7 +52,7 @@ html {
   flex-wrap: wrap;
 }
 .nav b {
-  font-size: 40px;
+  font-size: 35px;
   margin-left: 20px;
 }
 .menu {
@@ -69,7 +69,7 @@ html {
 }
 .menu a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   color: #333;
   font-weight: bolder;
   transition-duration: 0.5s;
