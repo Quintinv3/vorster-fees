@@ -184,9 +184,22 @@ a {
   margin-bottom: 10px;
 }
 
+.venue p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  width: 80%;
+  color: #333;
+  text-align: center;
+  margin: 2%;
+}
+
 .sectionInfo {
   display: flex;
   width: 90%;
+  background-image: url("Engagement/eucalyptus.jpg");
+  border-radius: 8px;
+  padding: 5%;
 }
 
 .contact {
@@ -194,19 +207,24 @@ a {
   width: 50%;
   font-size: 35px;
   line-height: 30px;
-  margin-right: 20px;
+  margin: 5%;
+  padding-right: 5%;
   color: #333;
+  text-align: left;
+}
+.contact p {
   text-align: left;
 }
 
 .mapObject {
-  width: 50%;
-  height: 10%;
-  margin: 5px;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
+  margin-left: 10%;
   border: 2px solid #d4af37;
   display: flex;
 }
+
 #map {
   width: 100%;
   height: auto;
@@ -228,7 +246,7 @@ a {
 }
 
 .party img {
-  width: 80%;
+  width: 90%;
   height: auto;
   display: inline;
   background-color: #d4af37;
@@ -239,10 +257,22 @@ a {
 
 .party p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 35px;
+  font-size: 18px;
   line-height: 30px;
+  width: 80%;
   color: #333;
-  text-align: left;
+  text-align: center;
+  margin: 5%;
+}
+
+.party .quintin h4 {
+  font-size: 35px;
+  text-align: center;
+}
+.party .quintin p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  text-align: center;
 }
 
 .rsvp {
@@ -278,7 +308,8 @@ a {
 }
 
 .rsvp p {
-  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
   line-height: 30px;
   color: #333;
   text-align: center;
@@ -312,6 +343,19 @@ h3 {
   border-radius: 10px;
   padding: 10px;
   border: 2px solid #d4af37;
+}
+
+strong {
+  font-family: "cookie", cursive;
+  font-size: 350%;
+}
+.gifts {
+  width: 80%;
+}
+.gifts p {
+  font-family: "cookie", cursive;
+  text-align: center;
+  font-size: 35px;
 }
 
 /* footer {
