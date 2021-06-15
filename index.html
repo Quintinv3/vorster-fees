@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+    />
+    <script type= "module" src="base.js"></script>
+
+    <title>Vorster Fees</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <div class="nav">
+          <b>Vorster Fees</b>
+          <div class="menu">
+            <!-- <a href="#home">Tuis</a> -->
+            <!-- <a href="#us">Ons</a> -->
+            <a href="#venue">Plek</a>
+            <a href="#party">Onthaal</a>
+            <a href="#rsvp">RSVP</a>
+          </div>
+        </div>
+        <div class="text">
+          <h1>Quintin & Kimberlee</h1>
+          <div id="openingQuote">"Mag jou hart tuis voel hier by my..."</div>
+          <a href="#rsvp">
+            <span class="date">9 Oktober 2021, 16:00</span>
+          </a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="us">
+          <h2 id="countdown"></h2>
+          <img class="slideshow" src="Engagement/6.jpg" alt="Vorster Fees" />
+          <p>Venue info kom hier...</p>
+        </div>
+        <!-- <div class="us">
+          <h2 id="demo"></h2>
+
+          <div class="us1">
+            <img src="Engagement/Q&K-5-min.jpg" alt="She's MINE 😜" />
+            <span>Lorem ipsum </span>
+          </div>
+          <div class="us1">
+            <img src="Engagement/Q&K-56-min.jpg" alt="He's MINE 😜" />
+            <span>Lorem ipsum</span>
+          </div>
+        </div> -->
+        <div class="venue">
+          <h2><a name="venue">Plek</a></h2>
+          
+          <img src="Engagement/blomfontein.webp" alt="Vorster Fees" />
+          <p class="textBody">
+            Die plaas is 30km buite Cradock in die Ooskaap gele&#235, dus verkies ons (indien moontlik) dat ons gaste van die akkommodasie op die plaas gebruik maak. Akkommodasie pryse wissel vanaf <strong>R300</strong> tot <strong>R500</strong> pp/nag. 
+          </p>
+          <p class="textBody">Let asseblief daarop dat al die eenhede self-sorg is.</p>
+          <br>
+          <p class="textBody"> Ons versoek dat ons gaste met Kimberlee sowel as die venue personeel hul akkommodasie re&#235lings bespreek.</p> 
+
+          <div class="sectionInfo">
+            <div class="contact">
+              <h4>Kontak Besonderhede</h4>
+              <br />
+              <p class="textBody">
+                <strong>Akkommodasie:</strong> (+27) 73 639 9311 </p>
+                <p class="textBody">
+                <strong>Kimberlee:</strong> (+27) 84 601 3519
+
+              </p>
+            </div>
+
+            <div class="mapObject">
+              <iframe
+                id="map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13465.400186901574!2d25.6559609!3d-32.4633278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x80bc5d3cd970fd17!2sBLOMFONTEIN%20WEDDING%20VENUE!5e0!3m2!1sen!2sza!4v1623665509863!5m2!1sen!2sza"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="party">
+          <h2><a name="party">Onthaal</a></h2>
+          <img src="Engagement/Engagement-shot.webp" alt="Vorster Fees" />
+        
+            
+            <p> Tyd vlieg so vinnig</p>
+            
+            <p class="textBody"> 
+              
+              Daarom maak ons doodseker dat
+            daar ordentlik fees gevier sal word.
+          </p>
+          
+          <p class="textBody">
+            Op 8 Oktober sal daar by die venue 'n bring en braai
+            wees vir al ons gaste! Skakel asseblief vir Quintin vir meer
+            inligting: 084 601 3519.
+          </p>
+
+          <p class="textBody">
+            Die onthaal na die seremonie sal plaas vind in die skuur diskant die
+            kapel. Voor die onthaal sal daar peuselhappies bedien word.
+          </p>
+        </div>
+        <div class="rsvp">
+          <h2><a name="rsvp">RSVP</a></h2>
+          <!-- <div class="rsvpForm">
+            <img src="Engagement/Q&K-15-min.jpg" alt="VorsterFees" />
+          </div> -->
+
+          <div class="rsvp" id="inputForm">
+            <!-- <h3>RSVP</h3> -->
+            
+            <form
+              name="rsvpForm"
+              method="POST"
+              id="submitForm"
+              action="https://getform.io/f/3704c7fb-6ccc-4cd7-9e89-a038bb6d45fd">
+              <input
+                type="text"
+                name="name"
+                class="formElement"
+                id="guest"
+                placeholder="Your Name Here"
+              />
+              <select name="mySelect" class="formElement" id="mySelect">
+                <option value="Attending">Attending</option>
+                <option value="Not Attending">Not Attending</option>
+              </select>
+              <input name="Alergens" id= "notes" class="formElement" type="text" placeholder="Dietary Preferences?">
+              <br /><br />
+              <button type="submit" class="formElement">Send</button>
+            </form>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
+            quis neque rerum id dignissimos quasi asperiores, quo ut repellat
+            reiciendis mollitia iusto? Harum minima sint corporis, eos explicabo
+            recusandae autem.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
