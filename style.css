@@ -11,6 +11,14 @@ Light Grey #ececec
   box-sizing: border-box;
 }
 
+h4 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
 html {
   background-image: url("Engagement/footer-flowers.jpg");
 }
@@ -202,20 +210,40 @@ a {
   background-image: url("Engagement/eucalyptus.jpg");
   border-radius: 8px;
   padding: 5%;
+  margin: 5%;
+}
+
+.sectionInfo p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  line-height: 30px;
+  width: 80%;
+  color: #333;
+  text-align: center;
+  margin: 2%;
 }
 
 .contact {
   width: 50%;
-  font-size: 35px;
+  font-size: 100%;
   line-height: 30px;
-  margin: 5%;
-  padding-right: 5%;
+  margin: 1%;
+
   color: #333;
-  text-align: left;
-  display: flex;
+  text-align: center;
+  display: inline;
 }
+
 .contact p {
-  text-align: left;
+  text-align: center;
+  font-size: 80%;
+  width: 80%;
+  margin: 10%;
+}
+
+.accommodation {
+  text-align: center;
+  font-size: 25px;
 }
 
 .mapObject {
@@ -317,12 +345,12 @@ a {
   text-align: center;
 }
 
-h3 {
+/* h3 {
   text-align: center;
   margin: 40px;
   color: #d4af37;
   font-size: 30px;
-}
+} */
 
 #inputForm {
   background-image: url("Engagement/eucalyptus.jpg");
