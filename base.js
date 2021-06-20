@@ -83,7 +83,7 @@ function initSlideshow() {
   setImage(0);
   setInterval(function () {
     nextImage();
-  }, 5000);
+  }, 3000);
 }
 
 function nextImage() {
